@@ -1,4 +1,5 @@
 Bookmarks::Application.routes.draw do
+  get "site/index"
   devise_for :users
   resources :bookmarks
 
@@ -8,7 +9,7 @@ Bookmarks::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
-     root :to => "bookmarks#index"
+     root 'site#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

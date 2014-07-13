@@ -9,6 +9,12 @@ gem 'sqlite3'
 # USe devise for User Authentication
 gem 'devise', '~> 3.0.0.rc'
 
+#Prettier forms
+gem 'simple_form', '~> 3.0.0.rc'
+
+#Just another .js framework
+gem 'zurb-foundation', '~> 4.2.2'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 
